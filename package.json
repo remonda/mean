@@ -6,8 +6,8 @@
     "start": "node ./bin/www"
   },
   "engines": {
-    "npm":">=6.12.0",
-    "node":">=12.13.0"
+    "npm": ">=6.12.0",
+    "node": ">=12.13.0"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",

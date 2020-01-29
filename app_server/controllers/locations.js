@@ -6,7 +6,7 @@
  */
 
 const homelist = (req, res, next) => {
-    res.render('locations-list', {title: 'Home', content: 'This is homelist page'});
+    res.render('locations-list', {title: 'Home', content: ' Find places to work with wifi near you!'});
 };
 
 const locationInfo = (req, res, next) => {

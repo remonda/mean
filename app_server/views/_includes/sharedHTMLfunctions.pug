@@ -1,0 +1,12 @@
+mixin outputRating(rating, isSmall)
+  if (isSmall) 
+    small &nbsp;
+      - for (let i = 1; i <= rating; i++)
+        i.fas.fa-star
+      - for (let i = rating; i < 5; i++)
+        i.far.fa-star
+  else 
+    - for (let i=1; i<= rating;i++)
+      i.fas.fa-star
+    - for (let i=rating; i< 5; i++)
+      i.far.fa-star 
